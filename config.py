@@ -8,7 +8,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 API_ID = os.environ.get("API_ID", "22606849")
 API_HASH = os.environ.get("API_HASH", "ef85493cd32eadcb5309b5957d8d1b86")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7602691098:AAGQ1VzEF69qlhnMwg3uWjYUB6oc1aGmh1Y")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN = int(os.environ.get("ADMIN",'6440021089'))
 FSUB_UPDATES = os.environ.get("FSUB_CHANNEL", "Hindi_Kochikame")
 FSUB_GROUP = os.environ.get("FSUB_GROUP", "")
